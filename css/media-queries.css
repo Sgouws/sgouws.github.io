@@ -1,0 +1,12 @@
+@media screen and (max-width: 510px) {
+	body {
+		font-size: 0.8em;
+	}
+	.container-thin {
+		width: 300px;
+	}
+	.footer-nav {
+		transform: translate(0%, 0);
+		left: 2px;
+	}
+}
