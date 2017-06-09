@@ -106,6 +106,12 @@ header h4 {
 	text-decoration: none;
 }
 
+.preview:link,
+.preview:visited {
+	color: #e0e157;
+	text-decoration: none;
+}
+
 
 /* FOOTER */
 
@@ -144,4 +150,8 @@ footer li {
 .social-website a:visited {
 	text-decoration: none;
 	color: #DD972B;
+}
+
+a:hover {
+	font-weight: bold;
 }
