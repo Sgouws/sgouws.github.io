@@ -1,0 +1,105 @@
+/* General Styling */
+
+body {
+	background: #00303E;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+
+/* Body Container */
+
+.container-thin {
+	width: 400px;
+	margin: 0 auto;
+}
+
+
+/* HEADER */
+
+header h4 {
+	letter-spacing: 10px;
+}
+
+
+/* Author */
+
+.author {
+	font-size: 0.7em;
+	position: relative;
+	top: -20px;
+	color: #26C3EF;
+	letter-spacing: 2px;
+}
+
+
+/* Main Log section */
+
+ul {
+	list-style: none;
+}
+
+
+/* Comment-like formatting */
+
+.comment {
+	color: #e8e8e8;
+	opacity: 0.5;
+}
+
+
+/*Source and Demo Links */
+
+.source:link,
+.source:visited {
+	color: #ec007c;
+	text-decoration: none;
+}
+
+.demo:link,
+.demo:visited {
+	color: #81E232;
+	text-decoration: none;
+}
+
+
+/* FOOTER */
+
+footer.social-links {
+	list-style-type: none;
+}
+
+footer li {
+	display: inline-block;
+}
+
+.footer-nav {
+	width: 300px;
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, 0);
+	bottom: 0px;
+}
+
+
+/* Footer link colorisation */
+
+.social-git a:link,
+.social-git a:visited {
+	text-decoration: none;
+	color: #2FC9EF;
+}
+
+.social-twitter a:link,
+.social-twitter a:visited {
+	text-decoration: none;
+	color: #E0E14C;
+}
+
+.social-website a:link,
+.social-website a:visited {
+	text-decoration: none;
+	color: #DD972B;
+}
