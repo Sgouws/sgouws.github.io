@@ -1,0 +1,25 @@
+body {
+	background: #202028;
+	color: white;
+	font-family: sans-seif;
+	font-size: 2em;
+	text-align: center;
+}
+
+canvas {
+	margin-toP: 100px;
+	border: solid .1em white;
+	height: 90%;
+}
+
+.menu {
+	position: absolute;
+}
+
+.scorer {
+	margin-bottom: 20px;
+	border: 1px solid #FFF;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100px;
+}
